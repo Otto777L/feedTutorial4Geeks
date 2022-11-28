@@ -1,0 +1,52 @@
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+body {	
+	background-color: rgb(177, 177, 177);
+	font-family: Poppins;
+}
+.title {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin-top: -15px;
+	margin-left: -10px;
+	margin-right: -8px;
+}
+.img-title {
+	display: flex;
+}
+.main-content {
+	display: flex;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	min-width: 50%;
+	background-color: white;
+}
+.divaux1, .divaux3 {	
+	flex-grow: 1;
+	background-color: rgb(177, 177, 177);
+}
+.img-title h4 {
+	width: 90%;
+	margin-left: 10px;
+}
+.img-title p {
+	float: right;
+	width: 5%;
+}
+.img-body {
+	display: flex;	
+	width: 100%;
+	height: 470px;
+}
+.img-body img {
+	width: 100%; /* image box size as % of container, see step 1 */
+	height: 100%; /* image box size as % of container, see step 1 */
+	object-fit: contain; /* matching of image pixels to image box, see step 2 */
+}
+.img-info {
+	padding: 10px;
+}
